@@ -1,0 +1,37 @@
+body {
+    font-family:'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom left, #00ff88, #0044ff); /* Gradient dari atas kanan ke bawah kiri */
+}
+
+.container {
+    width: 40%;
+    margin: 90px auto;
+    padding: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.profile-pic {
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.info {
+    margin: 10px 0;
+}
+
+.info p {
+    text-align: center;
+    margin: 20px 0;
+}
