@@ -2,16 +2,16 @@ body {
     font-family:'Times New Roman', Times, serif;
     margin: 0;
     padding: 0;
-    background: linear-gradient(to bottom left, #00ff88, #0044ff); /* Gradient dari atas kanan ke bawah kiri */
+    background: #00a2ff; /* Gradient dari atas kanan ke bawah kiri */
 }
 
 .container {
-    width: 40%;
+    width: 90%;
     margin: 90px auto;
-    padding: 10px;
+    padding: 50px;
     background-color: #ffffff;
     box-shadow: 0 0 10px rgb(255, 255, 255);
-    border-radius: 5px;
+    border-radius: 50px;
 }
 
 h1 {
@@ -21,14 +21,14 @@ h1 {
 .profile-pic {
     display: block;
     margin: 0 auto;
-    width: 150px;
+    width: 170px;
     height: 200px;
-    border-radius: 50%;
+    border-radius: 10%;
     object-fit: cover;
 }
 
 .info {
-    margin: 10px 0;
+    margin: 10px auto;
 }
 
 .info p {
